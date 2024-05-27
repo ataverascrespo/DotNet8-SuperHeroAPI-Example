@@ -1,5 +1,6 @@
 global using SuperHeroApiDotNet7.Models;
 global using SuperHeroApiDotNet7.Data;
+using Microsoft.EntityFrameworkCore;
 using SuperHeroApiDotNet7.Services.SuperHeroService;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ISuperHeroService, SuperHeroService>();
 builder.Services.AddDbContext<DataContext>();
+
+// Add services to the container.
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
