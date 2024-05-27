@@ -1,6 +1,6 @@
 ﻿global using Microsoft.EntityFrameworkCore;
 
-namespace SuperHeroApiDotNet7.Data
+namespace SuperHeroApiDotNet8.Data
 {
     public class DataContext : DbContext
     {
@@ -8,7 +8,7 @@ namespace SuperHeroApiDotNet7.Data
         {
 
         }
-        
+
         public DbSet<SuperHero> SuperHeroes { get; set; }
     }
 }

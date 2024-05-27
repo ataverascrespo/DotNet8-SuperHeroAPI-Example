@@ -1,4 +1,4 @@
-﻿namespace SuperHeroApiDotNet7.Services.SuperHeroService
+﻿namespace SuperHeroApiDotNet8.Services.SuperHeroService
 {
     public interface ISuperHeroService
     {

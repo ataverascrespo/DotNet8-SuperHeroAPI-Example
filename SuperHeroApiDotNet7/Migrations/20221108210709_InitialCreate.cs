@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace SuperHeroApiDotNet7.Migrations
+namespace SuperHeroApiDotNet8.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

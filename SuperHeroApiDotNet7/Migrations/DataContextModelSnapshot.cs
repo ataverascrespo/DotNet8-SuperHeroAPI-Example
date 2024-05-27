@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SuperHeroApiDotNet7.Data;
+using SuperHeroApiDotNet8.Data;
 
 #nullable disable
 
-namespace SuperHeroApiDotNet7.Migrations
+namespace SuperHeroApiDotNet8.Migrations
 {
     [DbContext(typeof(DataContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace SuperHeroApiDotNet7.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SuperHeroApiDotNet7.Models.SuperHero", b =>
+            modelBuilder.Entity("SuperHeroApiDotNet8.Models.SuperHero", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

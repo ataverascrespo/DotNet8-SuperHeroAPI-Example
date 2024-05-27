@@ -1,4 +1,4 @@
-﻿namespace SuperHeroApiDotNet7.Models
+﻿namespace SuperHeroApiDotNet8.Models
 {
     public class SuperHero
     {

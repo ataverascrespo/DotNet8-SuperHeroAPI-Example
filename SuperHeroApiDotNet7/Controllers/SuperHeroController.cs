@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SuperHeroApiDotNet7.Services.SuperHeroService;
+using SuperHeroApiDotNet8.Services.SuperHeroService;
 
-namespace SuperHeroApiDotNet7.Controllers
+namespace SuperHeroApiDotNet8.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

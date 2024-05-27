@@ -1,7 +1,7 @@
-global using SuperHeroApiDotNet7.Models;
-global using SuperHeroApiDotNet7.Data;
+global using SuperHeroApiDotNet8.Models;
+global using SuperHeroApiDotNet8.Data;
 using Microsoft.EntityFrameworkCore;
-using SuperHeroApiDotNet7.Services.SuperHeroService;
+using SuperHeroApiDotNet8.Services.SuperHeroService;
 
 var builder = WebApplication.CreateBuilder(args);
 

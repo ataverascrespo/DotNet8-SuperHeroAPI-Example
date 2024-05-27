@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroApiDotNet7", "SuperHeroApiDotNet7\SuperHeroApiDotNet7.csproj", "{939FF4DD-76EB-41A5-A3EE-6057B89F6C12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroApiDotNet8", "SuperHeroApiDotNet8\SuperHeroApiDotNet8.csproj", "{939FF4DD-76EB-41A5-A3EE-6057B89F6C12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
